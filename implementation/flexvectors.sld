@@ -1,4 +1,4 @@
-(define-library (flexvectors)
+(define-library (srfi 214)
   (export ; Constructors
           make-flexvector flexvector
           flexvector-unfold flexvector-unfold-right
