@@ -1,0 +1,16 @@
+((synopsis "SRFI-133: Vector Library (R7RS-compatible)")
+ (version "0.1")
+ (license "BSD")
+ (category data)
+ (dependencies r7rs)
+ (author "Adam Nelson")
+ (maintainer "Leah Neukirchen")
+ (components
+  (extension
+   srfi-214
+   (types-file)
+   (csc-options "-O3" "-d0")
+   (source-dependencies "implementation/flexvectors.sld"
+                        "implementation/flexvectors-body1.scm"
+                        "implementation/flexvectors-body2.scm"
+                        "implementation/flexvectors-body3.scm"))))
