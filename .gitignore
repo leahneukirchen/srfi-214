@@ -1,1 +1,8 @@
-*~
+TODO
+*.build.sh
+*.install.sh
+*.import.scm
+*.so
+*.link
+*.o
+*.types
