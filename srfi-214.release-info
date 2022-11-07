@@ -1,0 +1,5 @@
+(repo git "https://github.com/leahneukirchen/{egg-name}.git")
+
+(uri targz "https://github.com/leahneukirchen/{egg-name}/archive/refs/tags/v{egg-release}.tar.gz")
+
+(release "0.1")
