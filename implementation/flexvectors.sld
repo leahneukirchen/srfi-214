@@ -47,4 +47,5 @@
           (srfi 145))
 
   (include "flexvectors-body1.scm")
-  (include "flexvectors-body2.scm"))
+  (include "flexvectors-body2.scm")
+  (include "flexvectors-body3.scm"))
