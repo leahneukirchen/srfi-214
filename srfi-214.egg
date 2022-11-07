@@ -1,4 +1,4 @@
-((synopsis "SRFI-133: Vector Library (R7RS-compatible)")
+((synopsis "SRFI-214: Flexvectors")
  (version "0.1")
  (license "BSD")
  (category data)
